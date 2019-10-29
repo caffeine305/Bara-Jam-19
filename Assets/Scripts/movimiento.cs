@@ -36,10 +36,12 @@ public class movimiento : MonoBehaviour
                 Animar.SetBool("IsWalking", true);
                 }else Animar.SetBool("IsWalking", false);
 
+            /*
             if (Input.GetButton("Jump"))
             {
                 moveDirection.y = jumpSpeed;
             }
+            */
 
             if (Input.GetButton("Jump"))
             {
