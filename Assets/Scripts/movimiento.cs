@@ -3,7 +3,6 @@ using System.Collections;
 
 public class movimiento : MonoBehaviour
 {
-    private const double V = 0.001;
     CharacterController characterController;
 
     public float speed = 6.0f;
@@ -18,7 +17,8 @@ public class movimiento : MonoBehaviour
     void Start()
     {
         characterController = GetComponent<CharacterController>();
-        Animar = GetComponent<Animator>();
+        Animar = gameObject.GetComponentInParent<Animator>();
+        
     }
 
     void Update()

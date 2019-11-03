@@ -53,7 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\golpes.cs" />
      <Compile Include="Assets\Scripts\movimiento.cs" />
+     <Compile Include="Assets\Scripts\onColDestroy.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Ricardo/Documents/GitHub/Bara-Jam-19/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
