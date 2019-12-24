@@ -27,6 +27,18 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 1
     m_Controller: {fileID: 0}
+  - m_Name: IsDamaged
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: IsFinished
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -333,7 +345,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 5f09ef344d3890847ae90c6c2992633f, type: 2}
+  m_Motion: {fileID: 7400000, guid: 39e47de04bcf71d47a7c961c7edb3b42, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -404,7 +416,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: fall
-  m_Speed: 2.5
+  m_Speed: 2
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -416,7 +428,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: b584f8cce65d16541856087b8ddf42ed, type: 2}
+  m_Motion: {fileID: 7400000, guid: 39e47de04bcf71d47a7c961c7edb3b42, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -484,7 +496,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: bleh
+  m_Name: bleh (damage)
   m_Speed: 2.5
   m_CycleOffset: 0
   m_Transitions: []
@@ -517,7 +529,7 @@ AnimatorStateMachine:
     m_Position: {x: 1284, y: -48, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102604308333297734}
-    m_Position: {x: 0, y: 0, z: 0}
+    m_Position: {x: 1428, y: 228, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102458094335636156}
     m_Position: {x: 1548, y: -132, z: 0}
